@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('WhatsApp Image 2024-12-12 at 00.42.32_bd397f9b.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Verdana;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+        }
+
+        /* Optional: Add a dark overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Adjust opacity as needed */
+            z-index: -1;
+        }
+
+        /* Your existing styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+    <title>HUNTER FAM</title>
+</head>
+
+<body style="font-family: Verdana; color:rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+    <div class="banner">
+        <img src="WhatsApp Image 2024-12-12 at 02.21.18_015d2021.jpg" alt="Banner">
+        <div class="banner-text">
+        </div>
+    </div>
+    <center>
+        <h1>Welcome to HUNTER FAM's Festive Album!</h1>
+    </center>
+    <br>
+    <p>This album features some of the most memorable and best Gqom music pieces from Hunter Fam's music,
+        as well as some fun and engaging content to help you celebrate the festive season.</p>
+
+    <h2>Music</h2>
+    <ul>
+        <li>HUNTER FAM - "Happy Festive (Hunter Fam's Version)"</li>
+        <li>HUNTER FAM - "Baby Boomer (Hunter Fam's Version)"</li>
+        <li>HUNTER FAM - "Festive Spirit (Hunter Fam's Version)"</li>
+        <li>HUNTER FAM - "Holiday Hop (Hunter Fam's Version)"</li>
+    </ul>
+    <center> <video width="850" height="700" controls preload="auto" poster="video-thumbnail.jpg">
+            <source src="WhatsApp Video 2024-12-12 at 01.58.17_553e47e0.mp4" type="video/mp4">
+            <source src="WhatsApp Video 2024-12-12 at 01.58.17_553e47e0.webm" type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video></center>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>    
